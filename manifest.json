@@ -1,0 +1,25 @@
+{
+
+  "manifest_version": 2,
+  "name": "SkillRack Helper",
+  "version": "1.0",
+
+  "description": "Figure out! :)",
+  "icons": {
+    "48": "icons/srhelper-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/srhelper-32.png",
+    "default_title": "SRHelper",
+    "default_popup": "popup/index.html"
+  },
+
+  "web_accessible_resources": [
+    "content_scripts/comm.js"
+  ]
+}

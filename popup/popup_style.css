@@ -1,0 +1,41 @@
+html, body {
+  width: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+#srt {
+  width: 200px;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.down:hover {
+  background-color: #FFA618;
+}
+
+.down {
+  background-color: #000000;
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.ins {
+  background-color: #000000;
+  font-family: Arial;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.ins:hover {
+  background-color: #3399CC;
+}
